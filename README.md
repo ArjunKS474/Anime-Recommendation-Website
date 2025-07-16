@@ -1,4 +1,4 @@
-<img width="2113" height="942" alt="image" src="https://github.com/user-attachments/assets/62cc6d52-0837-4b98-843f-32ceec079401" /># 🎌 ANIRECC - Anime Recommendation Website
+🎌 ANIRECC - Anime Recommendation Website
 
 **ANIRECC** is a personalized anime recommendation platform designed for anime enthusiasts seeking tailored suggestions and detailed information about their favorite series. With a clean and user-friendly interface, ANIRECC helps users explore new anime titles by genre and discover related shows based on specific inputs.
 
@@ -38,6 +38,7 @@ Every listing includes a comprehensive description covering the anime's plot, ch
 
 <img width="2224" height="995" alt="image" src="https://github.com/user-attachments/assets/bbdeae03-ab87-4278-8b81-dba063538bbb" />
 ![Uploading image.png…]()
+
 
 
 
