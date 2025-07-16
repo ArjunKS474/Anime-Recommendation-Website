@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Página anime inspirada y con datos de JKanime, AnimeFLV, SomosKudasai y MyAnimeList.">
+    <meta name="keywords" content="Página anime, noticias, popular, anime, en emision">
+    <meta name="author" content="Erick DC">
+    <meta name="copyright" content="Erick DC">
+    <meta name="robots" content="index,follow">
+
+    <!--=============== MARCADO DE OPEN GRAPH ===============-->
+    <meta property="og:url" content="https://erickdc7.github.io/Suikanime/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Anirecc" />
+    <meta property="og:description"
+        content="Página anime inspirada y con datos de JKanime, AnimeFLV, SomosKudasai y MyAnimeList." />
+    <meta property="og:image" content="https://erickdc7.github.io/Suikanime/assets/img/img-post.jpg" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Anirecc</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Anirecc</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#emision" class="nav__link active-link">Seasonal</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+                   
+                    <form action="" method="get" class="form">
+                        <input type="search" placeholder="Search anime..." class="seach__button">
+                        <i class="ri-search-line icon-search"></i>
+                    </form>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== EMISION ====================-->
+        <section class="section emision" id="emision">
+            <div class="section__title">
+                <h1>Seasonal</h1>
+                <span class="line"></span>
+                <p>25 animes<br>on airing</p>
+            </div>
+            <div class="anime__grid grid" id="animeon"></div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="section popular" id="popular">
+            <div class="section__title">
+                <h1>Popular</h1>
+                <span class="line"></span>
+                <p>Top 10 most<br>popular anime</p>
+            </div>
+            <div class="popular__container swiper">
+                <div class="swiper-wrapper" id="animetop"></div>
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+            </div>
+        </section>
+
+        
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
