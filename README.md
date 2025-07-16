@@ -37,7 +37,7 @@ Every listing includes a comprehensive description covering the anime's plot, ch
 ## 📊 Screenshots
 
 <img width="2224" height="995" alt="image" src="https://github.com/user-attachments/assets/bbdeae03-ab87-4278-8b81-dba063538bbb" />
-![Uploading image.png…]()
+
 
 
 
